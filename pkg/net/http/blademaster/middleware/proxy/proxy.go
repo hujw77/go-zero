@@ -9,10 +9,10 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
 
 	"github.com/pkg/errors"
 )

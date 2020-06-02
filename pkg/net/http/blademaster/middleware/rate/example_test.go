@@ -1,8 +1,8 @@
 package rate_test
 
 import (
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/middleware/rate"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/middleware/rate"
 )
 
 // This example create a rate middleware instance and attach to a blademaster engine,

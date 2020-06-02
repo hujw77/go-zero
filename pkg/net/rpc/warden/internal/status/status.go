@@ -4,7 +4,7 @@ import (
 	"context"
 	"strconv"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"

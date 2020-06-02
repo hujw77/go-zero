@@ -10,10 +10,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden"
-	pb "git.atmatrix.org/k12/zero/pkg/net/rpc/warden/proto/testproto"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden"
+	pb "github.com/HuJingwei/go-zero/pkg/net/rpc/warden/proto/testproto"
 )
 
 var (
@@ -67,7 +67,7 @@ func (s *helloServer) SayHello(ctx context.Context, in *pb.HelloRequest) (*pb.He
 	time.Sleep(time.Millisecond * time.Duration(in.Age))
 	time.Sleep(sleep)
 	for i := 0; i < cpu+rand.Intn(cpu); i++ {
-		crc32.Checksum([]byte(`testasdwfwfsddsfgwddcscschttp://git.bilibili.co/platform/git.atmatrix.org/k12/zero/merge_requests/new?merge_request%5Bsource_branch%5D=stress%2Fcodel`), crc32.IEEETable)
+		crc32.Checksum([]byte(`testasdwfwfsddsfgwddcscschttp://git.bilibili.co/platform/github.com/HuJingwei/go-zero/merge_requests/new?merge_request%5Bsource_branch%5D=stress%2Fcodel`), crc32.IEEETable)
 	}
 	return &pb.HelloReply{Message: "Hello " + in.Name, Success: true}, nil
 }

@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/log"
 )
 
 const (

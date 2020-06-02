@@ -1,6 +1,6 @@
 package tidb
 
-import "git.atmatrix.org/k12/zero/pkg/stat/metric"
+import "github.com/HuJingwei/go-zero/pkg/stat/metric"
 
 const namespace = "tidb_client"
 

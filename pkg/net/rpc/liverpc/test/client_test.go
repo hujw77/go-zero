@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/liverpc"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/liverpc/testdata"
-	v1 "git.atmatrix.org/k12/zero/pkg/net/rpc/liverpc/testdata/v1"
-	v2 "git.atmatrix.org/k12/zero/pkg/net/rpc/liverpc/testdata/v2"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/liverpc"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/liverpc/testdata"
+	v1 "github.com/HuJingwei/go-zero/pkg/net/rpc/liverpc/testdata/v1"
+	v2 "github.com/HuJingwei/go-zero/pkg/net/rpc/liverpc/testdata/v2"
 
 	"github.com/pkg/errors"
 )

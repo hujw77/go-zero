@@ -13,12 +13,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/naming"
-	http "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/naming"
+	http "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 const (

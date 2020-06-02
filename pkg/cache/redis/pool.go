@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/container/pool"
-	"git.atmatrix.org/k12/zero/pkg/net/trace"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/container/pool"
+	"github.com/HuJingwei/go-zero/pkg/net/trace"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 var beginTime, _ = time.Parse("2006-01-02 15:04:05", "2006-01-02 15:04:05")

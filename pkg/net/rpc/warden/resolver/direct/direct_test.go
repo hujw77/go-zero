@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/net/netutil/breaker"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden"
-	pb "git.atmatrix.org/k12/zero/pkg/net/rpc/warden/proto/testproto"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden/resolver"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/net/netutil/breaker"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden"
+	pb "github.com/HuJingwei/go-zero/pkg/net/rpc/warden/proto/testproto"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden/resolver"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 type testServer struct {

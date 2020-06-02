@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
-	"git.atmatrix.org/k12/zero/pkg/net/trace"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
+	"github.com/HuJingwei/go-zero/pkg/net/trace"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/json-iterator/go"

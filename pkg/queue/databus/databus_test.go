@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/naming/discovery"
-	"git.atmatrix.org/k12/zero/pkg/queue/databus"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/naming/discovery"
+	"github.com/HuJingwei/go-zero/pkg/queue/databus"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 var (

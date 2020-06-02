@@ -14,11 +14,11 @@ import (
 	"sync"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	xip "git.atmatrix.org/k12/zero/pkg/net/ip"
-	"git.atmatrix.org/k12/zero/pkg/net/netutil"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	xip "github.com/HuJingwei/go-zero/pkg/net/ip"
+	"github.com/HuJingwei/go-zero/pkg/net/netutil"
 
 	"github.com/pkg/errors"
 )

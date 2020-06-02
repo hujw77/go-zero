@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	httpx "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	timex "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	httpx "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	timex "github.com/HuJingwei/go-zero/pkg/time"
 
 	"github.com/pkg/errors"
 )

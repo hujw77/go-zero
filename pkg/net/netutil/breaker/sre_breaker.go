@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/stat/metric"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/stat/metric"
 )
 
 // sreBreaker is a sre CircuitBreaker pattern.

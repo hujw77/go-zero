@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/paladin"
-	"git.atmatrix.org/k12/zero/pkg/conf/paladin/apollo"
+	"github.com/HuJingwei/go-zero/pkg/conf/paladin"
+	"github.com/HuJingwei/go-zero/pkg/conf/paladin/apollo"
 
 	"github.com/BurntSushi/toml"
 )

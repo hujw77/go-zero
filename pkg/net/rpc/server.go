@@ -19,13 +19,13 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/dsn"
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	xlog "git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/context"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/interceptor"
-	"git.atmatrix.org/k12/zero/pkg/net/trace"
+	"github.com/HuJingwei/go-zero/pkg/conf/dsn"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	xlog "github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/context"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/interceptor"
+	"github.com/HuJingwei/go-zero/pkg/net/trace"
 
 	pkgerr "github.com/pkg/errors"
 )

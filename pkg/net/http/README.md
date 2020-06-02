@@ -1,4 +1,4 @@
-# git.atmatrix.org/k12/zero/net/http
+# github.com/HuJingwei/go-zero/net/http
 
 #### 项目简介
 > 1. 提供http模块

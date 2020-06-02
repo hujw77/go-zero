@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 var once sync.Once

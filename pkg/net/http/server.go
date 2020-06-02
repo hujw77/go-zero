@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 
 	"github.com/pkg/errors"
 )

@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/cache/memcache"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/cache/memcache"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
 )
 
 // Session http session.

@@ -1,11 +1,11 @@
 package auth
 
 import (
-	idtv1 "git.atmatrix.org/k12/zero/app/service/main/identify/api/grpc"
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden"
+	idtv1 "github.com/HuJingwei/go-zero/app/service/main/identify/api/grpc"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden"
 
 	"github.com/pkg/errors"
 )

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/container/pool"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/container/pool"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 var itempool = &Item{

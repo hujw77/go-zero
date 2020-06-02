@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/tests"
-	"git.atmatrix.org/k12/zero/pkg/net/netutil/breaker"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/tests"
+	"github.com/HuJingwei/go-zero/pkg/net/netutil/breaker"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 func TestClient(t *testing.T) {

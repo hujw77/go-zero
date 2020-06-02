@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/queue/databus"
-	"git.atmatrix.org/k12/zero/pkg/sync/errgroup"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/queue/databus"
+	"github.com/HuJingwei/go-zero/pkg/sync/errgroup"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 type testMsg struct {

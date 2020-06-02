@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/naming"
-	"git.atmatrix.org/k12/zero/pkg/naming/discovery"
-	rcontext "git.atmatrix.org/k12/zero/pkg/net/rpc/context"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/naming"
+	"github.com/HuJingwei/go-zero/pkg/naming/discovery"
+	rcontext "github.com/HuJingwei/go-zero/pkg/net/rpc/context"
 )
 
 func TestBreaker(t *testing.T) {

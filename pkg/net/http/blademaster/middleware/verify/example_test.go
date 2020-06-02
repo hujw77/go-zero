@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/middleware/verify"
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/middleware/verify"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 // This example create a identify middleware instance and attach to several path,

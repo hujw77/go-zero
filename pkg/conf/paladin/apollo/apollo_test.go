@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/paladin/apollo/internal/mockserver"
+	"github.com/HuJingwei/go-zero/pkg/conf/paladin/apollo/internal/mockserver"
 )
 
 func TestMain(m *testing.M) {

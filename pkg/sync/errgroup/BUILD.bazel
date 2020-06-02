@@ -7,7 +7,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["errgroup.go"],
-    importpath = "git.atmatrix.org/k12/zero/library/sync/errgroup",
+    importpath = "github.com/HuJingwei/go-zero/library/sync/errgroup",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

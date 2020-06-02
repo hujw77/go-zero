@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 // FieldType represent D value type

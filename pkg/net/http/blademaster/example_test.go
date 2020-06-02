@@ -5,11 +5,11 @@ import (
 	"log"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/binding"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/middleware/auth"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/middleware/verify"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/tests"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/binding"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/middleware/auth"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/middleware/verify"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/tests"
 )
 
 // This example start a http server and listen at port 8080,

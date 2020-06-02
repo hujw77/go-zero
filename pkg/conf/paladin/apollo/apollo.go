@@ -12,7 +12,7 @@ import (
 
 	"github.com/philchia/agollo"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/paladin"
+	"github.com/HuJingwei/go-zero/pkg/conf/paladin"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 	"flag"
 	"fmt"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden"
-	pb "git.atmatrix.org/k12/zero/pkg/net/rpc/warden/proto/testproto"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden"
+	pb "github.com/HuJingwei/go-zero/pkg/net/rpc/warden/proto/testproto"
 
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/any"

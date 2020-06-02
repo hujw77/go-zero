@@ -7,7 +7,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["server.go"],
-    importpath = "git.atmatrix.org/k12/zero/library/net/http",
+    importpath = "github.com/HuJingwei/go-zero/library/net/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

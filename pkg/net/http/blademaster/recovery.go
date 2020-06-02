@@ -6,7 +6,7 @@ import (
 	"os"
 	"runtime"
 
-	"git.atmatrix.org/k12/zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/log"
 )
 
 // Recovery returns a middleware that recovers from any panics and writes a 500 if there was one.

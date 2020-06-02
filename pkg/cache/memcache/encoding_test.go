@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	mt "git.atmatrix.org/k12/zero/pkg/cache/memcache/test"
+	mt "github.com/HuJingwei/go-zero/pkg/cache/memcache/test"
 )
 
 func TestEncode(t *testing.T) {

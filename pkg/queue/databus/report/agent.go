@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/queue/databus"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/queue/databus"
 
 	"github.com/pkg/errors"
 )

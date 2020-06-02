@@ -17,7 +17,7 @@ proto_library(
 go_proto_library(
     name = "example_go_proto",
     compilers = ["@io_bazel_rules_go//proto:go_proto"],
-    importpath = "git.atmatrix.org/k12/zero/library/net/http/blademaster/binding/example",
+    importpath = "github.com/HuJingwei/go-zero/library/net/http/blademaster/binding/example",
     proto = ":example_proto",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
@@ -26,7 +26,7 @@ go_proto_library(
 go_library(
     name = "go_default_library",
     embed = [":example_go_proto"],
-    importpath = "git.atmatrix.org/k12/zero/net/http/blademaster/binding/example",
+    importpath = "github.com/HuJingwei/go-zero/net/http/blademaster/binding/example",
     visibility = ["//visibility:public"],
 )
 

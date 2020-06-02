@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	protogen "git.atmatrix.org/k12/zero/pkg/net/trace/proto"
+	protogen "github.com/HuJingwei/go-zero/pkg/net/trace/proto"
 )
 
 const (

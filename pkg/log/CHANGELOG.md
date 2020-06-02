@@ -1,4 +1,4 @@
-### git.atmatrix.org/k12/zero/log
+### github.com/HuJingwei/go-zero/log
 
 ### v1.16.1
 > 1.修复文件 handler 不能删除已有老文件问题

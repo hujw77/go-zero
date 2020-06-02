@@ -1,7 +1,7 @@
 package redis
 
 import (
-	"git.atmatrix.org/k12/zero/pkg/stat/metric"
+	"github.com/HuJingwei/go-zero/pkg/stat/metric"
 )
 
 const namespace = "redis_client"

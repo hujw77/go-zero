@@ -6,7 +6,7 @@ import (
 
 	"github.com/tsuna/gohbase/hrpc"
 
-	"git.atmatrix.org/k12/zero/pkg/net/trace"
+	"github.com/HuJingwei/go-zero/pkg/net/trace"
 )
 
 // TraceHook create new hbase trace hook.

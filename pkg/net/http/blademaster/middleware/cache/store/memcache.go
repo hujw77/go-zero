@@ -3,8 +3,8 @@ package store
 import (
 	"context"
 
-	"git.atmatrix.org/k12/zero/pkg/cache/memcache"
-	"git.atmatrix.org/k12/zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/cache/memcache"
+	"github.com/HuJingwei/go-zero/pkg/log"
 )
 
 // Memcache represents the cache with memcached persistence

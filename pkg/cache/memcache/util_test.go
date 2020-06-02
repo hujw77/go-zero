@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	pb "git.atmatrix.org/k12/zero/pkg/cache/memcache/test"
+	pb "github.com/HuJingwei/go-zero/pkg/cache/memcache/test"
 
 	"github.com/stretchr/testify/assert"
 )

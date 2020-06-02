@@ -2,10 +2,10 @@ package zipkin
 
 import (
 	"fmt"
-	protogen "git.atmatrix.org/k12/zero/pkg/net/trace/proto"
+	protogen "github.com/HuJingwei/go-zero/pkg/net/trace/proto"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/net/trace"
+	"github.com/HuJingwei/go-zero/pkg/net/trace"
 	"github.com/openzipkin/zipkin-go/model"
 	"github.com/openzipkin/zipkin-go/reporter"
 	"github.com/openzipkin/zipkin-go/reporter/http"

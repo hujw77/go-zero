@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
 
 	"github.com/stretchr/testify/assert"
 )

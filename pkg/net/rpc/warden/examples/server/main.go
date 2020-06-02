@@ -9,12 +9,12 @@ import (
 	"syscall"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	epb "git.atmatrix.org/k12/zero/pkg/ecode/pb"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden"
-	pb "git.atmatrix.org/k12/zero/pkg/net/rpc/warden/proto/testproto"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	epb "github.com/HuJingwei/go-zero/pkg/ecode/pb"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden"
+	pb "github.com/HuJingwei/go-zero/pkg/net/rpc/warden/proto/testproto"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 
 	"github.com/golang/protobuf/ptypes"
 	"google.golang.org/grpc"

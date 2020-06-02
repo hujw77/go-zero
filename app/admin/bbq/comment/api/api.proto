@@ -3,7 +3,7 @@
 //  - https://developers.google.com/protocol-buffers/
 //  - http://info.bilibili.co/display/documentation/gRPC+Proto
 // protobuf 生成 HTTP 工具:
-//  - http://git.bilibili.co/platform/git.atmatrix.org/k12/zero/tree/master/app/tool/protoc-gen-bm
+//  - http://git.bilibili.co/platform/github.com/HuJingwei/go-zero/tree/master/app/tool/protoc-gen-bm
 // gRPC Golang Model:
 //  - http://info.bilibili.co/display/documentation/gRPC+Golang+Model
 // gRPC Golang Warden Gen:

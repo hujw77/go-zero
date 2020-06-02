@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 type cfg1 struct {
@@ -66,7 +66,7 @@ func TestDecodeQuery(t *testing.T) {
 			},
 		},
 		{
-			name: "test git.atmatrix.org/k12/zero/pkg/time",
+			name: "test github.com/HuJingwei/go-zero/pkg/time",
 			args: args{
 				query: url.Values{
 					"timeout": {"1s"},
@@ -77,7 +77,7 @@ func TestDecodeQuery(t *testing.T) {
 			cfg:  &cfg2{xtime.Duration(time.Second)},
 		},
 		{
-			name: "test empty git.atmatrix.org/k12/zero/pkg/time",
+			name: "test empty github.com/HuJingwei/go-zero/pkg/time",
 			args: args{
 				query: url.Values{},
 				v:     &cfg2{},
@@ -86,7 +86,7 @@ func TestDecodeQuery(t *testing.T) {
 			cfg:  &cfg2{},
 		},
 		{
-			name: "test git.atmatrix.org/k12/zero/pkg/time",
+			name: "test github.com/HuJingwei/go-zero/pkg/time",
 			args: args{
 				query: url.Values{},
 				v:     &cfg4{},

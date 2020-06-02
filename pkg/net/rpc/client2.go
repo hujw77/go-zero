@@ -8,12 +8,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/naming"
-	"git.atmatrix.org/k12/zero/pkg/naming/discovery"
-	"git.atmatrix.org/k12/zero/pkg/net/netutil/breaker"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/naming"
+	"github.com/HuJingwei/go-zero/pkg/naming/discovery"
+	"github.com/HuJingwei/go-zero/pkg/net/netutil/breaker"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 const (

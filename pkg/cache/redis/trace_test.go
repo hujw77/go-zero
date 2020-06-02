@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/net/trace"
+	"github.com/HuJingwei/go-zero/pkg/net/trace"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -11,10 +11,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	cmcd "git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	xhttp "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	cmcd "github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	xhttp "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 const (

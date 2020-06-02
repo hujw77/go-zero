@@ -6,7 +6,7 @@ import (
 	"io"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/container/pool"
+	"github.com/HuJingwei/go-zero/pkg/container/pool"
 )
 
 // Pool memcache connection pool struct.

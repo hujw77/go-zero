@@ -13,12 +13,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/dsn"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/net/criticality"
-	"git.atmatrix.org/k12/zero/pkg/net/ip"
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/conf/dsn"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/net/criticality"
+	"github.com/HuJingwei/go-zero/pkg/net/ip"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 
 	"github.com/pkg/errors"
 )

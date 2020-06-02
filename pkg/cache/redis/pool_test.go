@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/container/pool"
+	"github.com/HuJingwei/go-zero/pkg/container/pool"
 )
 
 type poolTestConn struct {

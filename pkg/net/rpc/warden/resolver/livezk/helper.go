@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net"
 
-	"git.atmatrix.org/k12/zero/pkg/naming"
-	lz "git.atmatrix.org/k12/zero/pkg/naming/livezk"
-	"git.atmatrix.org/k12/zero/pkg/net/ip"
+	"github.com/HuJingwei/go-zero/pkg/naming"
+	lz "github.com/HuJingwei/go-zero/pkg/naming/livezk"
+	"github.com/HuJingwei/go-zero/pkg/net/ip"
 )
 
 // Register self grpc service to live zookeeper

@@ -15,9 +15,9 @@ import (
 	"strings"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	xhttp "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	xhttp "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 const (

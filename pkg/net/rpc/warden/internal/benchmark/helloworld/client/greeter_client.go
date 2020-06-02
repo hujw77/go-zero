@@ -9,10 +9,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/net/netutil/breaker"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden"
-	pb "git.atmatrix.org/k12/zero/pkg/net/rpc/warden/internal/proto/testproto"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/net/netutil/breaker"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden"
+	pb "github.com/HuJingwei/go-zero/pkg/net/rpc/warden/internal/proto/testproto"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 var (

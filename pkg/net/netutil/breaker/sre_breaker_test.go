@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/stat/metric"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/stat/metric"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 
 	"github.com/stretchr/testify/assert"
 )

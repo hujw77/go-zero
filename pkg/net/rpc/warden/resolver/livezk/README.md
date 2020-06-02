@@ -6,8 +6,8 @@
 
 ```go
 import (
-    "git.atmatrix.org/k12/zero/conf"
-    "git.atmatrix.org/k12/zero/business/warden/livezk"
+    "github.com/HuJingwei/go-zero/conf"
+    "github.com/HuJingwei/go-zero/business/warden/livezk"
 )
 
 func main() {

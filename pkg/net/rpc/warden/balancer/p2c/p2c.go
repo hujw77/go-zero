@@ -9,11 +9,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
 
-	"git.atmatrix.org/k12/zero/pkg/log"
-	nmd "git.atmatrix.org/k12/zero/pkg/net/metadata"
-	wmd "git.atmatrix.org/k12/zero/pkg/net/rpc/warden/internal/metadata"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	nmd "github.com/HuJingwei/go-zero/pkg/net/metadata"
+	wmd "github.com/HuJingwei/go-zero/pkg/net/rpc/warden/internal/metadata"
 
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"

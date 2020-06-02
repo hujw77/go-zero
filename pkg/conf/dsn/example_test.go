@@ -3,8 +3,8 @@ package dsn_test
 import (
 	"log"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/dsn"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/conf/dsn"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 // Config struct

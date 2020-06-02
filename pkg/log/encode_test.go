@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/log/internal"
+	"github.com/HuJingwei/go-zero/pkg/log/internal"
 )
 
 func TestJsonEncode(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"os"
 	"sync"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/dsn"
+	"github.com/HuJingwei/go-zero/pkg/conf/dsn"
 
 	"github.com/pkg/errors"
 )

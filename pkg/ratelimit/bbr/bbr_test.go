@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/ratelimit"
-	"git.atmatrix.org/k12/zero/pkg/stat/metric"
+	"github.com/HuJingwei/go-zero/pkg/ratelimit"
+	"github.com/HuJingwei/go-zero/pkg/stat/metric"
 	"github.com/stretchr/testify/assert"
 )
 

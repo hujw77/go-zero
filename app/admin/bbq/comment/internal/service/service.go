@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	pb "git.atmatrix.org/k12/zero/app/admin/bbq/comment/api"
-	"git.atmatrix.org/k12/zero/app/admin/bbq/comment/internal/dao"
-	"git.atmatrix.org/k12/zero/library/conf/paladin"
+	pb "github.com/HuJingwei/go-zero/app/admin/bbq/comment/api"
+	"github.com/HuJingwei/go-zero/app/admin/bbq/comment/internal/dao"
+	"github.com/HuJingwei/go-zero/library/conf/paladin"
 
 	"github.com/golang/protobuf/ptypes/empty"
 )

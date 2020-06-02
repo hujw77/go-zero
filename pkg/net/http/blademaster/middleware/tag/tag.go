@@ -1,7 +1,7 @@
 package tag
 
 import (
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
 )
 
 // Tag create a tag into Keys field of context

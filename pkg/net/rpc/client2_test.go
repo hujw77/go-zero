@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/naming"
-	"git.atmatrix.org/k12/zero/pkg/naming/discovery"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/naming"
+	"github.com/HuJingwei/go-zero/pkg/naming/discovery"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

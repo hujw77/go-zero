@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/exp/feature"
-	"git.atmatrix.org/k12/zero/pkg/naming"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/exp/feature"
+	"github.com/HuJingwei/go-zero/pkg/naming"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

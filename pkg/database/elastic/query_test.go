@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/queue/databus/report"
+	"github.com/HuJingwei/go-zero/pkg/queue/databus/report"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

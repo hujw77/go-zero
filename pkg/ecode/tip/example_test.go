@@ -3,10 +3,10 @@ package tip_test
 import (
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode/tip"
-	xhttp "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/net/netutil/breaker"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/ecode/tip"
+	xhttp "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/net/netutil/breaker"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 func ExampleInit() {

@@ -9,14 +9,14 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/naming"
-	"git.atmatrix.org/k12/zero/pkg/net/netutil/breaker"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden/balancer/wrr"
-	pb "git.atmatrix.org/k12/zero/pkg/net/rpc/warden/proto/testproto"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden/resolver"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/naming"
+	"github.com/HuJingwei/go-zero/pkg/net/netutil/breaker"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden/balancer/wrr"
+	pb "github.com/HuJingwei/go-zero/pkg/net/rpc/warden/proto/testproto"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden/resolver"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 
 	"google.golang.org/grpc"
 )

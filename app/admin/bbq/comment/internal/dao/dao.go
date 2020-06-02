@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"git.atmatrix.org/k12/zero/library/cache/memcache"
-	"git.atmatrix.org/k12/zero/library/cache/redis"
-	"git.atmatrix.org/k12/zero/library/conf/paladin"
-	"git.atmatrix.org/k12/zero/library/database/sql"
-	"git.atmatrix.org/k12/zero/library/log"
-	xtime "git.atmatrix.org/k12/zero/library/time"
+	"github.com/HuJingwei/go-zero/library/cache/memcache"
+	"github.com/HuJingwei/go-zero/library/cache/redis"
+	"github.com/HuJingwei/go-zero/library/conf/paladin"
+	"github.com/HuJingwei/go-zero/library/database/sql"
+	"github.com/HuJingwei/go-zero/library/log"
+	xtime "github.com/HuJingwei/go-zero/library/time"
 )
 
 // Dao dao.

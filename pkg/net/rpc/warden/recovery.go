@@ -6,8 +6,8 @@ import (
 	"os"
 	"runtime"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/log"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

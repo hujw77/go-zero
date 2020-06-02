@@ -1,4 +1,4 @@
-# git.atmatrix.org/k12/zero/cache/memcache
+# github.com/HuJingwei/go-zero/cache/memcache
 
 ##### 项目简介
 > 1. 提供protobuf，gob，json序列化方式，gzip的memcache接口

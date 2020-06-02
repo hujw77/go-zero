@@ -16,14 +16,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	xlog "git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
-	"git.atmatrix.org/k12/zero/pkg/net/netutil/breaker"
-	"git.atmatrix.org/k12/zero/pkg/net/trace"
-	"git.atmatrix.org/k12/zero/pkg/stat"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	xlog "github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
+	"github.com/HuJingwei/go-zero/pkg/net/netutil/breaker"
+	"github.com/HuJingwei/go-zero/pkg/net/trace"
+	"github.com/HuJingwei/go-zero/pkg/stat"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 
 	perr "github.com/pkg/errors"
 )

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/rate"
+	"github.com/HuJingwei/go-zero/pkg/rate"
 )
 
 func worker(qps int64, ch chan struct{}) {

@@ -8,12 +8,12 @@ import (
 	"syscall"
 	"time"
 
-	"git.atmatrix.org/k12/zero/app/admin/bbq/comment/internal/server/grpc"
-	"git.atmatrix.org/k12/zero/app/admin/bbq/comment/internal/server/http"
-	"git.atmatrix.org/k12/zero/app/admin/bbq/comment/internal/service"
-	"git.atmatrix.org/k12/zero/library/conf/paladin"
-	ecode "git.atmatrix.org/k12/zero/library/ecode/tip"
-	"git.atmatrix.org/k12/zero/library/log"
+	"github.com/HuJingwei/go-zero/app/admin/bbq/comment/internal/server/grpc"
+	"github.com/HuJingwei/go-zero/app/admin/bbq/comment/internal/server/http"
+	"github.com/HuJingwei/go-zero/app/admin/bbq/comment/internal/service"
+	"github.com/HuJingwei/go-zero/library/conf/paladin"
+	ecode "github.com/HuJingwei/go-zero/library/ecode/tip"
+	"github.com/HuJingwei/go-zero/library/log"
 )
 
 func main() {

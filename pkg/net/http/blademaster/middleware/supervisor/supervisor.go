@@ -3,8 +3,8 @@ package supervisor
 import (
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
 )
 
 // Config supervisor conf.

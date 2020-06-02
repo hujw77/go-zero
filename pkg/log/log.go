@@ -8,8 +8,8 @@ import (
 	"os"
 	"strconv"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/stat/metric"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/stat/metric"
 )
 
 // Config log config.

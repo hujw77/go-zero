@@ -1,8 +1,8 @@
 package proxy_test
 
 import (
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/middleware/proxy"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/middleware/proxy"
 )
 
 // This example create several reverse proxy to show how to use proxy middleware.

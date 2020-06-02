@@ -1,6 +1,6 @@
 package memcache
 
-import "git.atmatrix.org/k12/zero/pkg/stat/metric"
+import "github.com/HuJingwei/go-zero/pkg/stat/metric"
 
 const namespace = "memcache_client"
 

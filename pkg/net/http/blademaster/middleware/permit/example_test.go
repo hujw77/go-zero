@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/cache/memcache"
-	"git.atmatrix.org/k12/zero/pkg/container/pool"
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/middleware/permit"
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
-	"git.atmatrix.org/k12/zero/pkg/net/netutil/breaker"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/cache/memcache"
+	"github.com/HuJingwei/go-zero/pkg/container/pool"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/middleware/permit"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
+	"github.com/HuJingwei/go-zero/pkg/net/netutil/breaker"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 // This example create a permit middleware instance and attach to several path,

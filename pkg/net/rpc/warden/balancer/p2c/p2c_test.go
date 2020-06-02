@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
 
-	nmd "git.atmatrix.org/k12/zero/pkg/net/metadata"
-	wmeta "git.atmatrix.org/k12/zero/pkg/net/rpc/warden/internal/metadata"
+	nmd "github.com/HuJingwei/go-zero/pkg/net/metadata"
+	wmeta "github.com/HuJingwei/go-zero/pkg/net/rpc/warden/internal/metadata"
 
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/codes"

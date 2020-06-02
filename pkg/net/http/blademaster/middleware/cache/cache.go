@@ -1,8 +1,8 @@
 package cache
 
 import (
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/middleware/cache/store"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/middleware/cache/store"
 )
 
 // Cache is the abstract struct for any cache impl

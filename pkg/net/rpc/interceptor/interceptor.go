@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/context"
-	"git.atmatrix.org/k12/zero/pkg/stat"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/context"
+	"github.com/HuJingwei/go-zero/pkg/stat"
 
 	"golang.org/x/time/rate"
 )

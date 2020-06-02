@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/log"
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
 )
 
 func init() {

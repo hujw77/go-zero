@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"git.atmatrix.org/k12/zero/pkg/log/infoc"
+	"github.com/HuJingwei/go-zero/pkg/log/infoc"
 )
 
 var (

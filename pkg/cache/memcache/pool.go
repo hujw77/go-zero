@@ -5,9 +5,9 @@ import (
 	"io"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/container/pool"
-	"git.atmatrix.org/k12/zero/pkg/stat"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/container/pool"
+	"github.com/HuJingwei/go-zero/pkg/stat"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 var stats = stat.Cache

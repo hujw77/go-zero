@@ -10,9 +10,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden/internal/benchmark/bench/proto"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden/internal/benchmark/bench/proto"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"google.golang.org/grpc"

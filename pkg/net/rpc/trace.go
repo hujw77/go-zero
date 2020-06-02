@@ -3,7 +3,7 @@ package rpc
 import (
 	"strconv"
 
-	"git.atmatrix.org/k12/zero/pkg/net/trace"
+	"github.com/HuJingwei/go-zero/pkg/net/trace"
 )
 
 // TraceInfo propagate trace propagate gorpc call

@@ -11,8 +11,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/log"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 var isClient bool

@@ -8,9 +8,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/dsn"
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/conf/dsn"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 var _traceDSN = "unixgram:///var/run/dapper-collect/dapper-collect.sock"

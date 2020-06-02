@@ -3,7 +3,7 @@ package metadata
 import (
 	"context"
 
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
 )
 
 // FromContext get metadata from context.

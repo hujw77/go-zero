@@ -9,11 +9,11 @@ import (
 	"sync"
 	"text/template"
 
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/binding"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/render"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/binding"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/render"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/gogo/protobuf/types"

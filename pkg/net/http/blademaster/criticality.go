@@ -1,8 +1,8 @@
 package blademaster
 
 import (
-	criticalityPkg "git.atmatrix.org/k12/zero/pkg/net/criticality"
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
+	criticalityPkg "github.com/HuJingwei/go-zero/pkg/net/criticality"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
 
 	"github.com/pkg/errors"
 )

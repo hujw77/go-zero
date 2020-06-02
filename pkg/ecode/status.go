@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode/types"
+	"github.com/HuJingwei/go-zero/pkg/ecode/types"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"

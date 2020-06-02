@@ -1,7 +1,7 @@
 package hbase
 
 import (
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 // ZKConfig Server&Client settings.

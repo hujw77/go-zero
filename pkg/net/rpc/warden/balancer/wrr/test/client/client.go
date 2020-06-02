@@ -7,12 +7,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/exp/feature"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden"
-	pb "git.atmatrix.org/k12/zero/pkg/net/rpc/warden/proto/testproto"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden/resolver"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden/resolver/direct"
+	"github.com/HuJingwei/go-zero/pkg/exp/feature"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden"
+	pb "github.com/HuJingwei/go-zero/pkg/net/rpc/warden/proto/testproto"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden/resolver"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden/resolver/direct"
 )
 
 var addrs string

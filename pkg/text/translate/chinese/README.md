@@ -14,7 +14,7 @@ import (
 	"log"
 	"context"
 
-	"git.atmatrix.org/k12/zero/library/text/translate/chinese"
+	"github.com/HuJingwei/go-zero/library/text/translate/chinese"
 )
 
 func main() {

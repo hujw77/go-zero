@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"git.atmatrix.org/k12/zero/pkg/cache/redis"
-	"git.atmatrix.org/k12/zero/pkg/container/pool"
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/cache/redis"
+	"github.com/HuJingwei/go-zero/pkg/container/pool"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 func TestAntiSpamHandler(t *testing.T) {

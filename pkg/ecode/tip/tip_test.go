@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
 )
 
 var (

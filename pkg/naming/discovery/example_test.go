@@ -3,8 +3,8 @@ package discovery_test
 import (
 	"context"
 	"fmt"
-	"git.atmatrix.org/k12/zero/pkg/naming"
-	"git.atmatrix.org/k12/zero/pkg/naming/discovery"
+	"github.com/HuJingwei/go-zero/pkg/naming"
+	"github.com/HuJingwei/go-zero/pkg/naming/discovery"
 	"time"
 )
 

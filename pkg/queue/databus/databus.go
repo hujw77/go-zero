@@ -12,16 +12,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/cache/redis"
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/container/pool"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/naming"
-	"git.atmatrix.org/k12/zero/pkg/naming/discovery"
-	"git.atmatrix.org/k12/zero/pkg/net/netutil"
-	"git.atmatrix.org/k12/zero/pkg/net/trace"
-	"git.atmatrix.org/k12/zero/pkg/stat/prom"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/cache/redis"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/container/pool"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/naming"
+	"github.com/HuJingwei/go-zero/pkg/naming/discovery"
+	"github.com/HuJingwei/go-zero/pkg/net/netutil"
+	"github.com/HuJingwei/go-zero/pkg/net/trace"
+	"github.com/HuJingwei/go-zero/pkg/stat/prom"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 const (

@@ -1,7 +1,7 @@
 package stat
 
 import (
-	"git.atmatrix.org/k12/zero/pkg/stat/prom"
+	"github.com/HuJingwei/go-zero/pkg/stat/prom"
 )
 
 // Stat interface.

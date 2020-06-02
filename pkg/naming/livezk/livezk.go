@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/naming"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/naming"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 
 	"github.com/samuel/go-zookeeper/zk"
 )

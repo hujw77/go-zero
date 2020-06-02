@@ -6,8 +6,8 @@ import (
 	"math/rand"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/net/ip"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/net/ip"
 
 	"github.com/pkg/errors"
 )

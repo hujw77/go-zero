@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/net/netutil/breaker"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden/benchmark/bench/proto"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/net/netutil/breaker"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden/benchmark/bench/proto"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 
 	goproto "github.com/gogo/protobuf/proto"
 	"github.com/montanaflynn/stats"

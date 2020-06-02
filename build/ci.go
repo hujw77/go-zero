@@ -50,7 +50,7 @@ import (
 	"runtime"
 	"strings"
 
-	"git.atmatrix.org/k12/zero/internal/build"
+	"github.com/HuJingwei/go-zero/internal/build"
 )
 
 var GOBIN, _ = filepath.Abs(filepath.Join("build", "bin"))

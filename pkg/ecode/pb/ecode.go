@@ -3,7 +3,7 @@ package pb
 import (
 	"strconv"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
 
 	any "github.com/golang/protobuf/ptypes/any"
 )

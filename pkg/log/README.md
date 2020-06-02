@@ -7,5 +7,5 @@
 > 请只用golang v1.7.x以上版本编译执行。  
 
 ##### 依赖包
-> 1.公共包git.atmatrix.org/k12/zero  
+> 1.公共包github.com/HuJingwei/go-zero  
 

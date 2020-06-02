@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
-	"git.atmatrix.org/k12/zero/pkg/stat/metric"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
+	"github.com/HuJingwei/go-zero/pkg/stat/metric"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 // ErrFull channel full error

@@ -1,4 +1,4 @@
-module git.atmatrix.org/k12/zero
+module github.com/HuJingwei/go-zero
 
 go 1.14
 

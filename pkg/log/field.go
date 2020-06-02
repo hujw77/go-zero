@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/log/internal/core"
+	"github.com/HuJingwei/go-zero/pkg/log/internal/core"
 )
 
 // D represents a map of entry level data used for structured logging.

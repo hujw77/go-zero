@@ -3,7 +3,7 @@
 
 /*
 Package v2 is a generated liverpc stub package.
-This code was generated with git.atmatrix.org/k12/zero/app/tool/liverpc/protoc-gen-liverpc v0.1.
+This code was generated with github.com/HuJingwei/go-zero/app/tool/liverpc/protoc-gen-liverpc v0.1.
 
 It is generated from these files:
 	v2/Room.proto
@@ -13,7 +13,7 @@ package v2
 import context "context"
 
 import proto "github.com/golang/protobuf/proto"
-import "git.atmatrix.org/k12/zero/pkg/net/rpc/liverpc"
+import "github.com/HuJingwei/go-zero/pkg/net/rpc/liverpc"
 
 var _ proto.Message // generate to suppress unused imports
 // Imports only used by utility functions:

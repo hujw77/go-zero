@@ -3,7 +3,7 @@ package blademaster
 import (
 	"strconv"
 
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
 )
 
 const (

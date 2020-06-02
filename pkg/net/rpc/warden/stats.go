@@ -4,8 +4,8 @@ import (
 	"context"
 	"strconv"
 
-	nmd "git.atmatrix.org/k12/zero/pkg/net/rpc/warden/internal/metadata"
-	"git.atmatrix.org/k12/zero/pkg/stat/sys/cpu"
+	nmd "github.com/HuJingwei/go-zero/pkg/net/rpc/warden/internal/metadata"
+	"github.com/HuJingwei/go-zero/pkg/stat/sys/cpu"
 
 	"google.golang.org/grpc"
 	gmd "google.golang.org/grpc/metadata"

@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"sync"
 
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/stat/prom"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/stat/prom"
 )
 
 var (

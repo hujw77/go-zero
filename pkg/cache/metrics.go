@@ -1,6 +1,6 @@
 package cache
 
-import "git.atmatrix.org/k12/zero/pkg/stat/metric"
+import "github.com/HuJingwei/go-zero/pkg/stat/metric"
 
 const _metricNamespace = "cache"
 

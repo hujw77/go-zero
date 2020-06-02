@@ -7,10 +7,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/net/trace"
-	"git.atmatrix.org/k12/zero/pkg/rate/limit/bench/stress/conf"
-	"git.atmatrix.org/k12/zero/pkg/rate/limit/bench/stress/http"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/net/trace"
+	"github.com/HuJingwei/go-zero/pkg/rate/limit/bench/stress/conf"
+	"github.com/HuJingwei/go-zero/pkg/rate/limit/bench/stress/http"
 )
 
 func main() {

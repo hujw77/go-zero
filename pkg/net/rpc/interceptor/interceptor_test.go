@@ -6,8 +6,8 @@ import (
 	"sync"
 	"testing"
 
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/context"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/context"
 
 	"golang.org/x/time/rate"
 )

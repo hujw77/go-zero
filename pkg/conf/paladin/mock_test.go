@@ -3,7 +3,7 @@ package paladin_test
 import (
 	"testing"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/paladin"
+	"github.com/HuJingwei/go-zero/pkg/conf/paladin"
 
 	"github.com/stretchr/testify/assert"
 )

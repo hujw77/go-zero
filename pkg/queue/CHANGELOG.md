@@ -1,4 +1,4 @@
-### git.atmatrix.org/k12/zero/queue
+### github.com/HuJingwei/go-zero/queue
 #### V1.0.1
 > 1.添加sdk监控  
 

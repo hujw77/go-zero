@@ -7,7 +7,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["infoc.go"],
-    importpath = "git.atmatrix.org/k12/zero/library/log/infoc",
+    importpath = "github.com/HuJingwei/go-zero/library/log/infoc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -5,10 +5,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/log"
-	limit "git.atmatrix.org/k12/zero/pkg/ratelimit"
-	"git.atmatrix.org/k12/zero/pkg/ratelimit/bbr"
-	"git.atmatrix.org/k12/zero/pkg/stat/metric"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	limit "github.com/HuJingwei/go-zero/pkg/ratelimit"
+	"github.com/HuJingwei/go-zero/pkg/ratelimit/bbr"
+	"github.com/HuJingwei/go-zero/pkg/stat/metric"
 	"google.golang.org/grpc"
 )
 

@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/rate"
+	"github.com/HuJingwei/go-zero/pkg/rate"
 )
 
 const (

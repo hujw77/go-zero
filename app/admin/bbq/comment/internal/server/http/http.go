@@ -3,11 +3,11 @@ package http
 import (
 	"net/http"
 
-	"git.atmatrix.org/k12/zero/app/admin/bbq/comment/internal/service"
-	"git.atmatrix.org/k12/zero/library/conf/paladin"
-	"git.atmatrix.org/k12/zero/library/log"
-	bm "git.atmatrix.org/k12/zero/library/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/library/net/http/blademaster/middleware/verify"
+	"github.com/HuJingwei/go-zero/app/admin/bbq/comment/internal/service"
+	"github.com/HuJingwei/go-zero/library/conf/paladin"
+	"github.com/HuJingwei/go-zero/library/log"
+	bm "github.com/HuJingwei/go-zero/library/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/library/net/http/blademaster/middleware/verify"
 )
 
 var (

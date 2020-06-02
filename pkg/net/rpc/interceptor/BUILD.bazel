@@ -7,7 +7,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["interceptor.go"],
-    importpath = "git.atmatrix.org/k12/zero/library/net/rpc/interceptor",
+    importpath = "github.com/HuJingwei/go-zero/library/net/rpc/interceptor",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

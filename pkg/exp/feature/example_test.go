@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"git.atmatrix.org/k12/zero/pkg/exp/feature"
+	"github.com/HuJingwei/go-zero/pkg/exp/feature"
 )
 
 var (

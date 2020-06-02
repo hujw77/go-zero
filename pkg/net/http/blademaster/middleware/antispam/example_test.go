@@ -3,11 +3,11 @@ package antispam_test
 import (
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/cache/redis"
-	"git.atmatrix.org/k12/zero/pkg/container/pool"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/middleware/antispam"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/cache/redis"
+	"github.com/HuJingwei/go-zero/pkg/container/pool"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/middleware/antispam"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 // This example create a antispam middleware instance and attach to a blademaster engine,

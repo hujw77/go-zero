@@ -12,8 +12,8 @@ import (
 	"context"
 	"fmt"
 
-	"git.atmatrix.org/k12/zero/conf"
-	"git.atmatrix.org/k12/zero/database/hbase.v2"
+	"github.com/HuJingwei/go-zero/conf"
+	"github.com/HuJingwei/go-zero/database/hbase.v2"
 )
 
 func main() {

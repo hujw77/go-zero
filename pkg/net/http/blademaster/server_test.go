@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	criticalityPkg "git.atmatrix.org/k12/zero/pkg/net/criticality"
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	criticalityPkg "github.com/HuJingwei/go-zero/pkg/net/criticality"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 
 	"github.com/stretchr/testify/assert"
 )

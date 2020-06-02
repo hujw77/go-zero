@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"git.atmatrix.org/k12/zero/pkg/net/trace"
+	"github.com/HuJingwei/go-zero/pkg/net/trace"
 )
 
 const (

@@ -9,9 +9,9 @@ import (
 	"github.com/tsuna/gohbase"
 	"github.com/tsuna/gohbase/hrpc"
 
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/net/trace"
-	"git.atmatrix.org/k12/zero/pkg/stat"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/net/trace"
+	"github.com/HuJingwei/go-zero/pkg/stat"
 )
 
 var stats = stat.DB

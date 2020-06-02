@@ -3,12 +3,12 @@ package aqm
 import (
 	"context"
 
-	"git.atmatrix.org/k12/zero/pkg/container/queue/aqm"
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/rate"
-	"git.atmatrix.org/k12/zero/pkg/rate/limit"
-	"git.atmatrix.org/k12/zero/pkg/stat/prom"
+	"github.com/HuJingwei/go-zero/pkg/container/queue/aqm"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/rate"
+	"github.com/HuJingwei/go-zero/pkg/rate/limit"
+	"github.com/HuJingwei/go-zero/pkg/stat/prom"
 )
 
 const (

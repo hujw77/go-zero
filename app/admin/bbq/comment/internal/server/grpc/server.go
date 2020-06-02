@@ -1,10 +1,10 @@
 package grpc
 
 import (
-	pb "git.atmatrix.org/k12/zero/app/admin/bbq/comment/api"
-	"git.atmatrix.org/k12/zero/app/admin/bbq/comment/internal/service"
-	"git.atmatrix.org/k12/zero/library/net/rpc/warden"
-	"git.atmatrix.org/k12/zero/library/conf/paladin"
+	pb "github.com/HuJingwei/go-zero/app/admin/bbq/comment/api"
+	"github.com/HuJingwei/go-zero/app/admin/bbq/comment/internal/service"
+	"github.com/HuJingwei/go-zero/library/net/rpc/warden"
+	"github.com/HuJingwei/go-zero/library/conf/paladin"
 )
 
 // New new a grpc server.

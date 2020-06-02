@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/container/queue/aqm"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/rate"
-	"git.atmatrix.org/k12/zero/pkg/rate/vegas"
+	"github.com/HuJingwei/go-zero/pkg/container/queue/aqm"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/rate"
+	"github.com/HuJingwei/go-zero/pkg/rate/vegas"
 )
 
 var _ rate.Limiter = &Limiter{}

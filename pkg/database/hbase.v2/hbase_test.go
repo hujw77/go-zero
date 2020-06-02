@@ -11,7 +11,7 @@ import (
 
 	"github.com/tsuna/gohbase/hrpc"
 
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 var addrs []string

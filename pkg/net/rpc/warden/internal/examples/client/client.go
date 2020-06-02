@@ -5,9 +5,9 @@ import (
 	"flag"
 	"fmt"
 
-	"git.atmatrix.org/k12/zero/pkg/log"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden"
-	pb "git.atmatrix.org/k12/zero/pkg/net/rpc/warden/internal/proto/testproto"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden"
+	pb "github.com/HuJingwei/go-zero/pkg/net/rpc/warden/internal/proto/testproto"
 )
 
 // usage: ./client -grpc.target=test.service=127.0.0.1:9000

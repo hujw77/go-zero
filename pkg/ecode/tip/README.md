@@ -1,4 +1,4 @@
-# git.atmatrix.org/k12/zero/business/ecode
+# github.com/HuJingwei/go-zero/business/ecode
 
 ##### 项目简介
 > 1. 提供所有请求的错误码及其错误信息管理，错误信息在管理平台配置，支持自动更新

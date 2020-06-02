@@ -1,7 +1,7 @@
 package service
 
 import (
-	"git.atmatrix.org/k12/zero/pkg/rate/limit/bench/stress/conf"
+	"github.com/HuJingwei/go-zero/pkg/rate/limit/bench/stress/conf"
 )
 
 // Service struct

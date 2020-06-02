@@ -9,10 +9,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	nmd "git.atmatrix.org/k12/zero/pkg/net/metadata"
-	wmeta "git.atmatrix.org/k12/zero/pkg/net/rpc/warden/internal/metadata"
-	"git.atmatrix.org/k12/zero/pkg/stat/metric"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	nmd "github.com/HuJingwei/go-zero/pkg/net/metadata"
+	wmeta "github.com/HuJingwei/go-zero/pkg/net/rpc/warden/internal/metadata"
+	"github.com/HuJingwei/go-zero/pkg/stat/metric"
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/balancer"

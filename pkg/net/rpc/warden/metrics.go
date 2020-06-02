@@ -1,6 +1,6 @@
 package warden
 
-import "git.atmatrix.org/k12/zero/pkg/stat/metric"
+import "github.com/HuJingwei/go-zero/pkg/stat/metric"
 
 const (
 	clientNamespace = "grpc_client"

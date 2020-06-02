@@ -3,9 +3,9 @@ package report
 import (
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/env"
-	"git.atmatrix.org/k12/zero/pkg/queue/databus"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/conf/env"
+	"github.com/HuJingwei/go-zero/pkg/queue/databus"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 var (

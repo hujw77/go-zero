@@ -10,16 +10,16 @@ import (
 	"sync"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/conf/dsn"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	nmd "git.atmatrix.org/k12/zero/pkg/net/metadata"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden/ratelimiter"
-	"git.atmatrix.org/k12/zero/pkg/net/trace"
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	"github.com/HuJingwei/go-zero/pkg/conf/dsn"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	nmd "github.com/HuJingwei/go-zero/pkg/net/metadata"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden/ratelimiter"
+	"github.com/HuJingwei/go-zero/pkg/net/trace"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 
 	//this package is for json format response
-	_ "git.atmatrix.org/k12/zero/pkg/net/rpc/warden/internal/encoding/json"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden/internal/status"
+	_ "github.com/HuJingwei/go-zero/pkg/net/rpc/warden/internal/encoding/json"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden/internal/status"
 
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"

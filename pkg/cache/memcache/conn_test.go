@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	test "git.atmatrix.org/k12/zero/pkg/cache/memcache/test"
+	test "github.com/HuJingwei/go-zero/pkg/cache/memcache/test"
 	"github.com/gogo/protobuf/proto"
 )
 

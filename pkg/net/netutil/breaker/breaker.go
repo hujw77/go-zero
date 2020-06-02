@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	xtime "git.atmatrix.org/k12/zero/pkg/time"
+	xtime "github.com/HuJingwei/go-zero/pkg/time"
 )
 
 // Config broker config.

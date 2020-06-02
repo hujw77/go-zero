@@ -1,8 +1,8 @@
 package tag_test
 
 import (
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/net/http/blademaster/middleware/tag"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/middleware/tag"
 )
 
 // This example create a tag middleware instance and attach to a global.

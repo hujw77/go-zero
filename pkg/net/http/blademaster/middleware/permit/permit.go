@@ -3,12 +3,12 @@ package permit
 import (
 	"net/url"
 
-	mng "git.atmatrix.org/k12/zero/app/admin/main/manager/api"
-	"git.atmatrix.org/k12/zero/pkg/ecode"
-	"git.atmatrix.org/k12/zero/pkg/log"
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/net/metadata"
-	"git.atmatrix.org/k12/zero/pkg/net/rpc/warden"
+	mng "github.com/HuJingwei/go-zero/app/admin/main/manager/api"
+	"github.com/HuJingwei/go-zero/pkg/ecode"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
+	"github.com/HuJingwei/go-zero/pkg/net/rpc/warden"
 
 	"github.com/pkg/errors"
 )

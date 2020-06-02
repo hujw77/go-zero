@@ -7,13 +7,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.atmatrix.org/k12/zero/pkg/log"
-	bm "git.atmatrix.org/k12/zero/pkg/net/http/blademaster"
-	"git.atmatrix.org/k12/zero/pkg/rate"
-	"git.atmatrix.org/k12/zero/pkg/rate/limit"
-	"git.atmatrix.org/k12/zero/pkg/rate/limit/bench/stress/conf"
-	"git.atmatrix.org/k12/zero/pkg/rate/limit/bench/stress/service"
-	"git.atmatrix.org/k12/zero/pkg/rate/vegas"
+	"github.com/HuJingwei/go-zero/pkg/log"
+	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/rate"
+	"github.com/HuJingwei/go-zero/pkg/rate/limit"
+	"github.com/HuJingwei/go-zero/pkg/rate/limit/bench/stress/conf"
+	"github.com/HuJingwei/go-zero/pkg/rate/limit/bench/stress/service"
+	"github.com/HuJingwei/go-zero/pkg/rate/vegas"
 )
 
 var (
@@ -111,7 +111,7 @@ func aqmTest(c *bm.Context) {
 	atomic.AddInt64(&req, 1)
 	for i := 0; i < 3000+rand.Intn(3000); i++ {
 		crc32.Checksum([]byte(`testasdwfwfsddsfgwddcscsc
-			http://git.bilibili.co/platform/git.atmatrix.org/k12/zero/merge_requests/new?merge_request%5Bsource_branch%5D=stress%2Fcodel`), crc32.IEEETable)
+			http://git.bilibili.co/platform/github.com/HuJingwei/go-zero/merge_requests/new?merge_request%5Bsource_branch%5D=stress%2Fcodel`), crc32.IEEETable)
 	}
 }
 

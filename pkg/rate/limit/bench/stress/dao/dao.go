@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	"git.atmatrix.org/k12/zero/pkg/cache/memcache"
-	"git.atmatrix.org/k12/zero/pkg/cache/redis"
-	xsql "git.atmatrix.org/k12/zero/pkg/database/sql"
-	"git.atmatrix.org/k12/zero/pkg/rate/limit/bench/stress/conf"
+	"github.com/HuJingwei/go-zero/pkg/cache/memcache"
+	"github.com/HuJingwei/go-zero/pkg/cache/redis"
+	xsql "github.com/HuJingwei/go-zero/pkg/database/sql"
+	"github.com/HuJingwei/go-zero/pkg/rate/limit/bench/stress/conf"
 )
 
 // Dao dao
