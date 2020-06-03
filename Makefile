@@ -66,16 +66,16 @@ protoc-gen-ecode:
 	@echo "Run \"$(BIN_DIR)/protoc-gen-ecode\" to launch."
 
 protoc-gen-gofast:
-	env GO111MODULE=on BIN_DIR= go get -u github.com/gogo/protobuf/protoc-gen-gofast
-	@echo "Run \"$(BIN_DIR)/protoc-gen-gofast\" to launch."
+	env GO111MODULE=on GOBIN= go get -u github.com/gogo/protobuf/protoc-gen-gofast
+	@echo "Run \"$(GOBIN)/protoc-gen-gofast\" to launch."
 
 testgen:
-	$(GORUN) build/ci.go install ./tool/kratos/testgen
+	$(GORUN) build/ci.go install ./tool/testgen
 	@echo "Done building."
 	@echo "Run \"$(BIN_DIR)/testgen\" to launch."
 
 testcli:
-	$(GORUN) build/ci.go install ./tool/kratos/testcli
+	$(GORUN) build/ci.go install ./tool/testcli
 	@echo "Done building."
 	@echo "Run \"$(BIN_DIR)/testcli\" to launch."
 
