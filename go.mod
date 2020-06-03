@@ -7,7 +7,6 @@ require (
 	github.com/BurntSushi/toml v0.3.1
 	github.com/cespare/cp v1.1.1 // indirect
 	github.com/fatih/color v1.7.0
-	github.com/HuJingwei/go-zero v0.5.0
 	github.com/go-playground/universal-translator v0.17.0 // indirect
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/gogo/protobuf v1.3.1
