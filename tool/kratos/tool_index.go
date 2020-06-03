@@ -7,7 +7,7 @@ var toolIndexs = []*Tool{
 		Name:      "kratos",
 		Alias:     "kratos",
 		BuildTime: time.Date(2020, 3, 31, 0, 0, 0, 0, time.Local),
-		Install:   "go get -u github.com/HuJingwei/go-zero/tool/kratos@" + Version,
+		Install:   "go get -u github.com/HuJingwei/kratos/tool/kratos@" + Version,
 		Summary:   "Kratos工具集本体",
 		Platform:  []string{"darwin", "linux", "windows"},
 		Author:    "kratos",

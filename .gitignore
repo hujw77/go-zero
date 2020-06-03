@@ -25,10 +25,4 @@
 .DS_Store
 Thumbs.db
 
-bazel-bin
-bazel-genfiles
-bazel-zero
-bazel-out
-bazel-testlogs
-bazel-test
-_output
+build/bin
