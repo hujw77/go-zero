@@ -22,7 +22,7 @@ require (
 	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/montanaflynn/stats v0.6.3
 	github.com/openzipkin/zipkin-go v0.2.2
-	github.com/otokaze/mock v1.1.1
+	github.com/otokaze/mock v0.0.0-20190125081256-8282b7a7c7c3
 	github.com/philchia/agollo v2.1.0+incompatible
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.6.0
@@ -34,9 +34,10 @@ require (
 	github.com/urfave/cli/v2 v2.1.1
 	go.etcd.io/etcd v3.3.22+incompatible
 	golang.org/x/crypto v0.0.0-20191205180655-e7c4368fe9dd // indirect
+	golang.org/x/mod v0.3.0 // indirect
 	golang.org/x/net v0.0.0-20200226121028-0de0cce0169b
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1 // indirect
-	golang.org/x/tools v0.0.0-20200308013534-11ec41452d41
+	golang.org/x/tools v0.0.0-20200601175630-2caf76543d99
 	google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55
 	google.golang.org/grpc v1.29.1
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
