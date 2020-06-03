@@ -1,6 +1,0 @@
-# Owner
-echo
-
-# Author
-
-# Reviewer
