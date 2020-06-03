@@ -5,7 +5,7 @@
 .PHONY: kratos kratos-protoc kratos-gen-bts kratos-gen-mc kratos-gen-project   
 .PHONY: protoc-gen-bm protoc-gen-bswagger protoc-gen-ecode protoc-gen-gofast
 .PHONY: testgen testcli
-.PHONY: admin-bbq-comment
+.PHONY: cmd
 
 # It's necessary to set this because some environments don't link sh -> bash.
 SHELL := /bin/bash
@@ -88,8 +88,8 @@ install:
 	@cp -vi $(BIN_DIR)/* $(GOBIN) 
 
 
-admin-bbq-comment:
-	$(GORUN) build/ci.go install ./admin/bbq/comment/cmd
+cmd:
+	$(GORUN) build/ci.go install ./app/admin/main/app/cmd
 	@echo "Done building."
-	@echo "Run \"$(BIN_DIR)/admin-bbq-comment\" to launch."
+	@echo "Run \"$(BIN_DIR)/cmd\" to launch."
 
