@@ -1,6 +1,7 @@
 package http
 
 import (
+	"fmt"
 	"net/http"
 
 	pb "github.com/HuJingwei/go-zero/app/admin/main/app/api"
@@ -8,6 +9,8 @@ import (
 	"github.com/HuJingwei/go-zero/pkg/conf/paladin"
 	"github.com/HuJingwei/go-zero/pkg/log"
 	bm "github.com/HuJingwei/go-zero/pkg/net/http/blademaster"
+	"github.com/HuJingwei/go-zero/pkg/net/http/blademaster/middleware/auth"
+	"github.com/HuJingwei/go-zero/pkg/net/metadata"
 )
 
 var svc pb.DemoServer
@@ -16,7 +19,7 @@ var svc pb.DemoServer
 func New(s pb.DemoServer) (engine *bm.Engine, err error) {
 	var (
 		cfg bm.ServerConfig
-		ct paladin.TOML
+		ct  paladin.TOML
 	)
 	if err = paladin.Get("http.toml").Unmarshal(&ct); err != nil {
 		return
@@ -38,6 +41,28 @@ func initRouter(e *bm.Engine) {
 	{
 		g.GET("/start", howToStart)
 	}
+
+	myHandler := func(ctx *bm.Context) {
+		mid := metadata.Int64(ctx, metadata.Mid)
+		ctx.JSON(fmt.Sprintf("%d", mid), nil)
+	}
+
+	authn := auth.New(&auth.Config{
+		DisableCSRF: false,
+	})
+
+	// mark `/user` path as User policy
+	e.GET("/user", authn.User, myHandler)
+	// mark `/mobile` path as UserMobile policy
+	e.GET("/mobile", authn.UserMobile, myHandler)
+	// mark `/web` path as UserWeb policy
+	e.GET("/web", authn.UserWeb, myHandler)
+	// mark `/guest` path as Guest policy
+	e.GET("/guest", authn.Guest, myHandler)
+
+	o := e.Group("/owner", authn.User)
+	o.GET("/info", myHandler)
+	o.POST("/modify", myHandler)
 }
 
 func ping(ctx *bm.Context) {
